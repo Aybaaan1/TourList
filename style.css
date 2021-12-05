@@ -1,0 +1,64 @@
+body
+{
+background-image: url(https://images.unsplash.com/photo-1501785888041-af3ef285b470?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MjB8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80);
+background-size: cover;
+background-repeat: no-repeat;
+}
+.navbar ul{
+    list-style: none;
+    background:transparent;
+    text-align: center;
+    margin-top: 35px;
+    
+}
+.navbar li
+{
+    display: inline-block;
+    
+}
+.navbar a
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    width: 150px;
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 20px;
+    font-family: monospace;
+    text-align: center;
+    text-shadow: 2px 2px rgb(29, 28, 28);
+    margin-left: 20px;
+    
+}
+.navbar a:hover
+{
+    background: transparent;
+    color: rgb(240, 165, 52);
+}
+.header h1
+{
+
+    background-color: rgba(0,0,0, 0.4); 
+    color: rgb(235, 235, 223);
+    font-weight: bold;
+    border: 3px solid #000000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 50%;
+    padding: 40px;
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 4px 4px rgb(10, 10, 10);
+    
+}
+.logo img
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 60px;
+    position: absolute;
+    margin-top: -20px;
+}
