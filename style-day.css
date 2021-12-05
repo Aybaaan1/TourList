@@ -1,0 +1,181 @@
+body
+{
+background-image: url(https://images.unsplash.com/photo-1501785888041-af3ef285b470?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MjB8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80);
+background-size: 1400px;
+height: 900px;
+width: 1400px;
+background-repeat: no-repeat;
+}
+.navbar ul{
+    list-style: none;
+    background:transparent;
+    text-align: center;
+    margin-top: 35px;
+    
+}
+.navbar li
+{
+    display: inline-block;
+    
+}
+.navbar a
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    width: 165px;
+    display: inline-block;
+    padding: 5px 5px;
+    font-size: 20px;
+    font-family: monospace;
+    text-align: center;
+    text-shadow: 2px 2px rgb(29, 28, 28);
+    margin-left: 20px;
+    background-color: rgba(0,0,0, 0.4); 
+    color: rgb(235, 235, 223);
+    font-weight: bold;
+    border: 3px solid #000000;
+    
+}
+.navbar a:hover
+{
+    background: transparent;
+    color: rgb(240, 165, 52);
+}
+.logo img
+{
+    height: 85px;
+    width: 85px;
+    position: absolute;
+    margin-top: -20px;
+}
+.header h1
+{
+
+    background-color: rgba(0,0,0, 0.4); 
+    color: rgb(235, 235, 223);
+    font-weight: bold;
+    border: 3px solid #000000;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 40%;
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 3px 3px rgb(10, 10, 10);    
+}
+.first-image h3
+{
+    font-size: 25px;
+    margin-left: 9.5%;
+    margin-right: 77.5%;
+    margin-top: 18%;
+    text-shadow: 3px 3px rgb(10, 10, 10); 
+    background-color: rgba(0,0,0, 0.4); 
+    color: rgb(235, 235, 223);
+    font-weight: bold;
+    border: 3px solid #000000;
+    padding: 4px;
+   
+}
+.first-image img
+{
+    position: absolute;
+    height: 200px;
+    width: 215px;
+    border: black solid 3px;
+    left: 9%;
+    top: 60%;
+}
+.first-image h3:hover
+{
+    background: transparent;
+    color: rgb(240, 165, 52);
+}
+.second-image h3
+{
+    font-size: 25px;
+    margin-left: 30.4%;
+    margin-right: 57.5%;
+    margin-top: -4.6%;
+    text-shadow: 3px 3px rgb(10, 10, 10); 
+    background-color: rgba(0,0,0, 0.4); 
+    color: rgb(235, 235, 223);
+    font-weight: bold;
+    border: 3px solid #000000;
+    padding: 4px;
+   
+}
+.second-image img
+{
+    position: absolute;
+    height: 200px;
+    width: 215px;
+    border: black solid 3px;
+    left: 30.5%;
+    top: 60%;
+}
+.second-image h3:hover
+{
+    background: transparent;
+    color: rgb(240, 165, 52);
+}
+.third-image h3
+{
+    font-size: 25px;
+    margin-left: 51%;
+    margin-right: 36.7%;
+    margin-top: -4.6%;
+    text-shadow: 3px 3px rgb(10, 10, 10); 
+    background-color: rgba(0,0,0, 0.4); 
+    color: rgb(235, 235, 223);
+    font-weight: bold;
+    border: 3px solid #000000;
+    padding: 4px;
+   
+}
+.third-image img
+{
+    position: absolute;
+    height: 200px;
+    width: 215px;
+    border: black solid 3px;
+    left: 52%;
+    top: 60%;
+}
+.third-image h3:hover
+{
+    background: transparent;
+    color: rgb(240, 165, 52);
+}
+.fourth-image h3
+{
+    font-size: 25px;
+    margin-left: 72%;
+    margin-right: 16.5%;
+    margin-top: -4.6%;
+    text-shadow: 3px 3px rgb(10, 10, 10); 
+    background-color: rgba(0,0,0, 0.4); 
+    color: rgb(235, 235, 223);
+    font-weight: bold;
+    border: 3px solid #000000;
+    padding: 4px;
+   
+}
+.fourth-image img
+{
+    position: absolute;
+    height: 200px;
+    width: 215px;
+    border: black solid 3px;
+    left: 73%;
+    top: 60%;
+}
+.fourth-image h3:hover
+{
+    background: transparent;
+    color: rgb(240, 165, 52);
+}
+
