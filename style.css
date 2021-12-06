@@ -3,12 +3,14 @@ body
 background-image: url(https://images.unsplash.com/photo-1501785888041-af3ef285b470?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MjB8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80);
 background-size: cover;
 background-repeat: no-repeat;
+width: 1400px;
 }
 .navbar ul{
     list-style: none;
     background:transparent;
     text-align: center;
     margin-top: 35px;
+
     
 }
 .navbar li
@@ -23,8 +25,8 @@ background-repeat: no-repeat;
     width: 165px;
     display: inline-block;
     padding: 5px 5px;
-    font-size: 20px;
-    font-family: monospace;
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     text-shadow: 2px 2px rgb(29, 28, 28);
     margin-left: 20px;
@@ -32,12 +34,18 @@ background-repeat: no-repeat;
     color: rgb(235, 235, 223);
     font-weight: bold;
     border: 3px solid #000000;
+    border-radius: 20px;
     
 }
 .navbar a:hover
-{
-    background: transparent;
-    color: rgb(240, 165, 52);
+{  background: white;
+    color: rgb(7, 7, 7);
+    text-shadow:1.5px 1.5px rgb(250, 142, 0);
+    font-family: cursive;
+    border-radius: 0%;
+    font-size: 25px;
+    position:static;
+    width: 90%;
 }
 .header h1
 {
@@ -54,8 +62,11 @@ background-repeat: no-repeat;
     width: 50%;
     padding: 40px;
     text-align: center;
-    font-size: 60px;
+    font-size: 66px;
     text-shadow: 4px 4px rgb(10, 10, 10);
+    border-radius: 40px;
+    font-family:'Courier New', Courier, monospace;
+    
     
 }
 .logo img
@@ -64,4 +75,32 @@ background-repeat: no-repeat;
     width: 85px;
     position: absolute;
     margin-top: -20px;
+}
+.ayban h2
+{
+
+    background-color: rgba(0,0,0, 0.4); 
+    color: rgb(235, 235, 223);
+    font-weight: bold;
+    border: 3px solid #000000;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 18%;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 2px 2px rgb(10, 10, 10);
+    border-radius: 40px;
+    font-family: cursive;
+}
+.ayban h2:hover
+{
+    background: white;
+    color: rgb(7, 7, 7);
+    text-shadow:1.5px 1.5px rgb(250, 142, 0);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 0%;
 }
