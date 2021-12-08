@@ -41,15 +41,11 @@ background-repeat: no-repeat;
 .navbar a:hover
 {
     
-    background: white;
+    background: transparent;
     color: rgb(7, 7, 7);
-    text-shadow:1.5px 1.5px rgb(250, 142, 0);
+    text-shadow:1.5px 1.5px rgb(255, 123, 0);
     font-family: cursive;
-    border-radius: 0%;
-    font-size: 25px;
-    position:static;
-    width: 90%;
-
+    font-size: 18px;
 }
 .logo img
 {
